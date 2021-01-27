@@ -1,0 +1,27 @@
+{
+  "name": "randomfox",
+  "version": "1.0.0",
+  "description": "This is generating you an random image-url for a fox",
+  "main": "main.js",
+  "scripts": {
+    "test": "node tests/fox.js",
+    "customfox": "node tests/customfox.js",
+    "fox": "tests/fox.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Minecodes13/randomfox.git"
+  },
+  "keywords": [
+    "fox",
+    "random",
+    "randomfox",
+    "Minecodes"
+  ],
+  "author": "Minecodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/Minecodes13/randomfox/issues"
+  },
+  "homepage": "https://gitlab.com/Minecodes13/randomfox#readme"
+}
