@@ -2,7 +2,10 @@
 
 This is an library to get an link to an random fox image
 
+The cli version: [https://www.npmjs.com/package/foxes](https://www.npmjs.com/package/foxes)
+
 ## Installation ✅
+
 ```
 npm i randomfox
 
@@ -26,6 +29,7 @@ or
 
 yarn install git+https://github.com/Minecodes/randomfox.git
 ```
+
 ## Docs 🧐🤓
 
 Example
