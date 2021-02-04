@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node tests/fox.js",
     "customfox": "node tests/customfox.js",
-    "fox": "tests/fox.js"
+    "fox": "tests/fox.js",
+    "postinstall": "node update.js"
   },
   "repository": {
     "type": "git",
