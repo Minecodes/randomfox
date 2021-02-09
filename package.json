@@ -1,19 +1,20 @@
 {
   "name": "randomfox",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is generating you an random image-url for a fox",
   "main": "src/main.js",
   "scripts": {
     "test": "node tests/fox.js",
     "customfox": "node tests/customfox.js",
-    "fox": "tests/fox.js",
-    "postinstall": "node update.js"
+    "fox": "node tests/fox.js",
+    "build": "tsc --build tsconfig.json"
   },
   "repository": {
     "type": "git",
     "url": "git+https://gitlab.com/Minecodes13/randomfox.git"
   },
   "keywords": [
+    "typescript",
     "fox",
     "random",
     "randomfox",
@@ -24,5 +25,8 @@
   "bugs": {
     "url": "https://gitlab.com/Minecodes13/randomfox/issues"
   },
-  "homepage": "https://gitlab.com/Minecodes13/randomfox#readme"
+  "homepage": "https://gitlab.com/Minecodes13/randomfox#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
 }
