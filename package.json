@@ -28,5 +28,9 @@
   "homepage": "https://gitlab.com/Minecodes13/randomfox#readme",
   "devDependencies": {
     "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@types/request": "^2.48.5",
+    "request": "^2.88.2"
   }
 }
