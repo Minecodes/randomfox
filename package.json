@@ -1,6 +1,6 @@
 {
   "name": "randomfox",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "This is generating you an random image-url for a fox",
   "main": "src/main.js",
   "scripts": {

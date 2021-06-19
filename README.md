@@ -4,9 +4,20 @@ This is an library to get an link to an random fox image.</br>
 This is a API and now in TypeScript too. 👍😉 [![CodeFactor](https://www.codefactor.io/repository/github/minecodes/randomfox/badge)](https://www.codefactor.io/repository/github/minecodes/randomfox)
 
 The cli version: [https://www.npmjs.com/package/foxes](https://www.npmjs.com/package/foxes)</br>
-How to work with Typescript: [https://www.typescriptlang.org/docs](https://www.typescriptlang.org/docs)
+How to work with Typescript: [https://www.typescriptlang.org/docs](https://www.typescriptlang.org/docs)</br>
+It work in the browser too.
 
 ## Installation ✅
+
+Browser:
+```html
+<script src="https://unpkg.com/randomfox@1.1.1/src/browser.js">
+console.log(fox());
+console.log(customfox(["Floof 1", "Floof 2", "Floof 3", "Floof 4"]));
+</script>
+```
+
+Console/Etc:
 
 ```bash
 npm i randomfox

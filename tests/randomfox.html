@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/randomfox@1.1.1/src/browser.js"></script>
+    <script>
+    function load() {
+        document.getElementById("fox").innerText = fox();
+        document.getElementById("randomfox").innerText = customfox(["Floof 1", "Floof 2", "Floof 3", "Floof 4"]);
+    }
+    </script>
+    <title>Randomfox</title>
+</head>
+<body>
+    <label id="fox">Fox</label></br>
+    <label id="randomfox">Randomfox</label>
+    <button onclick="load()">Start</button>
+</body>
+</html>
