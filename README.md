@@ -1,5 +1,10 @@
 <center>
-<img src="https://web-static.vercel.app/randomfox.png" style="border-radius: 100%;" />
+<style>
+img {
+	border-radius: 100%;
+}
+</style>
+<img src="https://web-static.vercel.app/randomfox.png" />
 </center>
 
 # randomfox
