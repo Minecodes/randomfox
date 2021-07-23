@@ -122,3 +122,7 @@ console.log(customfox([
 	"https://randomfox.ca/images/2.jpg",
 	"https://randomfox.ca/images/3.jpg"]));
 ```
+
+# Licenses
+
+* Photo by <a href="https://unsplash.com/@sunyu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sunguk Kim</a> on <a href="https://unsplash.com/s/photos/anime-fox?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
