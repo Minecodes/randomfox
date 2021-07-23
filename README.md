@@ -1,3 +1,7 @@
+<center>
+<img src="https://web-static.vercel.app/randomfox.png" style="border-radius: 100%;" />
+</center>
+
 # randomfox
 
 This is an library to get an link to an random fox image.</br>
@@ -11,7 +15,15 @@ It work in the browser too.
 
 Browser:
 ```html
-<script src="https://unpkg.com/randomfox@1.1.1/src/browser.js">
+<script src="https://unpkg.com/randomfox/src/browser.js">
+console.log(fox());
+console.log(customfox(["Floof 1", "Floof 2", "Floof 3", "Floof 4"]));
+</script>
+```
+
+Browser Minified:
+```html
+<script src="https://unpkg.com/randomfox/src/browser.min.js">
 console.log(fox());
 console.log(customfox(["Floof 1", "Floof 2", "Floof 3", "Floof 4"]));
 </script>

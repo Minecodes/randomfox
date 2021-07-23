@@ -1,13 +1,16 @@
 {
   "name": "randomfox",
-  "version": "1.1.1",
+  "version": "1.1.5",
   "description": "This is generating you an random image-url for a fox",
-  "main": "src/main.js",
+  "main": "src/main.min.js",
   "scripts": {
     "test": "node tests/fox.js",
     "customfox": "node tests/customfox.js",
     "fox": "node tests/fox.js",
-    "build": "tsc --build tsconfig.json"
+    "tsbuild": "tsc --build tsconfig.json",
+    "build": "npm-run-all tsbuild minimain minibrowser",
+    "minimain": "minify src/main.js > src/main.min.js",
+    "minibrowser": "minify src/browser.js > src/browser.min.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +30,9 @@
   },
   "homepage": "https://gitlab.com/Minecodes13/randomfox#readme",
   "devDependencies": {
+    "minify": "^7.0.2",
+    "npm-run-all": "^4.1.5",
     "typescript": "^4.2.4"
-  }
+  },
+  "dependencies": {}
 }
