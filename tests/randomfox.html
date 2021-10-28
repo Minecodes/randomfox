@@ -1,21 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+h1{
+  font-size: 50px;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+h2{
+  font-size: 30px;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+.startbtn{
+  height: 50px;
+  width: 100px;
+}
+</style>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/randomfox@1.1.1/src/browser.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
     <script>
     function load() {
-        document.getElementById("fox").innerText = fox();
+        var a;
+        a = fox()
+        document.getElementById("fox").innerText = a;
+        document.getElementById("visbtn").disabled = false;
+        document.getElementById("vislink").setAttribute('href',a);
         document.getElementById("randomfox").innerText = customfox(["Floof 1", "Floof 2", "Floof 3", "Floof 4"]);
     }
     </script>
     <title>Randomfox</title>
 </head>
 <body>
-    <label id="fox">Fox</label></br>
-    <label id="randomfox">Randomfox</label>
-    <button onclick="load()">Start</button>
+  <center>
+    <h1 id="randomfox">R A N D O M F O X</h1>
+    <h2 id="fox">Click on start to create link</h2>
+    <button class="startbtn" onclick="load()">Start</button>
+    <a id="vislink" href="http://www.google.com" target="_blank"><button id="visbtn" disabled="true" class="startbtn">Visit Link</button></a>
+  </center>
 </body>
 </html>
